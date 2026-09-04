@@ -1,31 +1,4 @@
- body {
-    background-color: #0a1a3a;  /* AZUL MARINHO */
-    text-align: center;
-    font-family: Arial, sans-serif;
-}
-
-h1 {
-    color: #6a0dad;  /* ROXO ESCURO */
-    font-size: 45px;
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 15px 30px;
-    border-radius: 30px;
-    display: inline-block;
-    margin: 20px;
-}
-
-iframe {
-    width: 80%;
-    max-width: 700px;
-    height: 400px;
-    margin: 20px;
-    border-radius: 20px;
-    border: 3px solid #6a0dad;  /* BORDA ROXO ESCURO */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
-}
-
-
- body {
+body {
     background-color: #FFF8E7;  /* CREME - cor de pelinho fofo */
     text-align: center;
     font-family: 'Comic Sans MS', cursive, sans-serif;  /* FONTE DIVERTIDA */
