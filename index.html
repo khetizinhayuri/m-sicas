@@ -44,3 +44,62 @@
     <iframe width="1337" height="752" src="https://www.youtube.com/embed/C7EEK7GLD0s" title="Melim - Meu Abrigo (Letra/Lyrics)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
     <iframe width="1337" height="752" src="https://www.youtube.com/embed/P-wyIzdAnvc" title="Tribalistas - Velha Infância (Letra/Legendado)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    body {
+    background-color: #FFF8E7;  /* CREME - cor de pelinho fofo */
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;  /* FONTE DIVERTIDA */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><text y="30" font-size="30">🐾</text></svg>');
+    background-repeat: repeat;
+    background-size: 80px 80px;
+    padding: 20px;
+}
+
+h1 {
+    color: #8B4513;  /* MARROM - cor de chocolate */
+    font-size: 50px;
+    background-color: #FFD700;  /* AMARELO - igual golden retriever */
+    padding: 15px 35px;
+    border-radius: 50px;  /* BEM ARREDONDADO */
+    display: inline-block;
+    margin: 20px;
+    border: 5px solid #D2691E;  /* BORDA MARROM */
+    box-shadow: 0 8px 20px rgba(139, 69, 19, 0.3);
+    text-shadow: 3px 3px 0px #FFA500;  /* SOMBRA LARANJA */
+}
+
+h1::before {
+    content: "🐕 ";  /* CACHORRINHO ANTES DO TÍTULO */
+}
+
+h1::after {
+    content: " 🐕";  /* CACHORRINHO DEPOIS DO TÍTULO */
+}
+
+iframe {
+    width: 80%;
+    max-width: 700px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 30px;
+    border: 8px solid #D2691E;  /* BORDA MARROM GROSSA - igual coleira */
+    box-shadow: 0 10px 30px rgba(139, 69, 19, 0.4);
+    background-color: white;
+    padding: 5px;
+    background: #FFF8DC;
+}
+
+iframe::before {
+    content: "🐾";
+    display: block;
+    font-size: 30px;
+}
+
+p {
+    color: #5D3A1A;
+    font-size: 20px;
+    background-color: rgba(255, 215, 0, 0.3);
+    padding: 10px;
+    border-radius: 20px;
+}
